@@ -1,0 +1,115 @@
+#login-con {
+  background-color: #00000080 !important;
+  height: 100vh;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-size: cover;
+  background-position: center;
+  margin: 0 0 0 0;
+}
+
+.login-container {
+  height: 100vh;
+  background-image: url("/assets/img/shop-floor-warehouse.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.login-panel {
+  display: flex;
+  align-content: center;
+  align-self: center;
+  border-radius: 10px;
+  background-color: #fff;
+  opacity: 0.93;
+  box-shadow: 10px 10px 10px 10px rgba(8, 8, 8, 0.5);
+  min-width: 230px;
+}
+
+.loginform {
+  border-radius: 2px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  padding: 0 0 0 0;
+}
+
+.logo {
+  width: 100px;
+}
+.space {
+  margin-top: 1%;
+}
+.spacebottom {
+  margin-bottom: 20px;
+}
+
+.spacetop {
+  margin-top: 20px;
+}
+.btn {
+  color: white;
+  background-color: #304ffe;
+}
+.fa {
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: #555555;
+}
+#padding {
+  padding-bottom: -10px !important;
+  padding: -10px !important;
+}
+.mat-form-field-appearance-legacy,
+.mat-form-field-wrapper {
+  padding-bottom: -10px !important;
+}
+.mat-form-field-appearance-legacy,
+.mat-form-field-infix {
+}
+
+input.mat-input-element {
+  margin-top: 10px !important;
+}
+
+.form-control :focus {
+  border-color: white !important;
+}
+
+.forgot-password {
+  display: none;
+}
+.fpassword-link {
+  font-size: 10px;
+  margin-top: -50px;
+  margin-left: 15px;
+}
+.fpassword-link:hover {
+  color: #304ffe !important;
+}
+.login-link {
+  text-align: right;
+  font-size: 10px;
+  margin-top: -50px;
+  margin-left: 15px;
+}
+.login-link:hover {
+  color: #304ffe !important;
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 600px) {
+  .login-panel {
+    min-height: 100vh;
+    margin-top: 0px !important;
+  }
+
+  .spacetop {
+    margin-top: 25px !important;
+  }
+}

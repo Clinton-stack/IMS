@@ -1,0 +1,21 @@
+.oops{
+    font-size: 100px;
+    color: rgba(216, 37, 37, 0.767); 
+}
+
+.error-template {
+    position: relative;
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.error-actions {
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 28%;
+    margin-bottom: 15px;
+}
+
+.error-actions .btn {
+    margin-right: 10px;
+}

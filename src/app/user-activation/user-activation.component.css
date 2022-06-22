@@ -1,0 +1,54 @@
+.reset-container{
+    height: 100vh;
+    min-height: 550px;
+    background-image: url('/assets/img/shop-floor-warehouse.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+.rPanel{
+    background-color: rgba(255, 255, 255, 0.966);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10%;
+}
+.logo{
+    width: 100px;
+}
+
+.hint-1{
+    color:rgba(235, 15, 15, 0.884);
+    display: block;
+}
+.hint{
+    color:rgba(235, 15, 15, 0.884);
+    display: none;
+}
+.space{
+    margin-top: 15px; 
+}
+
+.btn{
+    color: white;
+    background-color:#304ffe;
+}
+
+
+.btn:hover{
+    background-color: #555555;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 600px) { 
+    .rPanel{
+      min-height: 100vh;
+      margin-top: 0px !important;
+    }
+
+    .spacetop{
+        margin-top: 25px !important;
+    }
+   }

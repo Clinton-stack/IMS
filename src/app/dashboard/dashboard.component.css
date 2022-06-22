@@ -1,0 +1,54 @@
+.color1 {
+    /* color: white; */
+    color: #C60F7B;
+}
+
+.color2 {
+    /* color: white; */
+    color: #F18F01;
+}
+
+.color3 {
+    /* color: white; */
+    color: #2E4057;
+}
+
+.color4 {
+    color: #99C24D;
+    /* color: white; */
+}
+
+.card {
+
+}
+
+.card-text {
+    font-size: 0.9em;
+    color: black;
+}
+.card-title{
+    color: black;
+    text-shadow: 1px 1px  rgba(68, 96, 100, 0.808);  
+}
+
+.card-body {
+    text-align: right;
+}
+
+.card-body-right a {
+    color: white;
+}
+
+.card-deck .chart-height {
+    max-height: 200px !important;
+}
+
+.chart-height {
+    height: 300px;
+}
+.medium-space{
+    margin-top: 20px;
+}
+.card-link{
+    color: rgba(68, 96, 100, 0.808) !important;
+}

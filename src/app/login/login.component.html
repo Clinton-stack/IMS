@@ -1,0 +1,51 @@
+<div class="login-container" >
+  <div class="row" id="login-con">
+    <div class="col-lg-4 offset-lg-4 space login-panel">
+      <div class="row">
+        <div class="col-12 spacetop" style="text-align: center">
+          <img class="logo" src="assets/img/bizzdesk_logo.png" /> 
+          <h2>Inventory Management System</h2>
+        </div>
+        <div class="col-12 spacetop">
+          <div id="login-box" *ngIf="displayBox" >
+            <h3 style="text-align: center">Account Login</h3>
+            <form [formGroup]="loginform"(ngSubmit)="login()">
+              <mat-form-field class="col-lg-12 col-sm-12 col-xs-12" id="padding" [style.fontSize.px]=11>
+                <mat-label><i class="fa fa-user"></i></mat-label>
+                <span><input matInput  formControlName="username" id="username"></span>
+              </mat-form-field>
+
+              <mat-form-field class="col-lg-12 col-sm-12 col-xs-12" id="padding" [style.fontSize.px]=11>
+                <mat-label><i class="fa fa-lock"></i></mat-label>
+                <input matInput type="password"  formControlName="password" id="password">
+              </mat-form-field>
+              <small><a  (click)="show()" class="fpassword-link" >Forgot password?</a></small>
+
+              <div style="text-align: center;">
+                <button type="submit" class="btn spacebottom" [disabled]="!loginform.valid">Login</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="forgot-password" id="reset-pass" *ngIf="hideBox">
+            <h3 style="text-align: center">Reset Password</h3>
+            <form [formGroup]="resetForm" >
+              <mat-form-field class="col-lg-12 col-sm-12 col-xs-12" [style.fontSize.px]=11>
+                 <mat-label><i class="fa fa-envelope"></i></mat-label>
+                <span><input matInput  type="email" placeholder="Email" formControlName="emailAddress" id="emailAddress"></span>
+              </mat-form-field>
+              <a class="login-link" (click)="hide()"  > Login</a>
+              <div style="text-align: center">
+                <button type="submit" name="submit" class="btn spacebottom" [disabled]="!resetForm.valid" (click)="reset()">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<ng-http-loader spinner="sk-cube-grid"></ng-http-loader>
+
+<!-- <mat-spinner></mat-spinner> -->

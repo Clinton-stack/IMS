@@ -1,0 +1,142 @@
+.sidenav-container {
+  height: 100%;
+  width: 100%;
+}
+
+.sidenav {
+  width: 170px;
+}
+.mat-toolbar{
+  background-color: #003249;
+  box-shadow: 2px 2px 2px rgba(8, 8, 8, 0.5);
+  font-size: 15px;
+  display: block;
+}
+
+.sidenav .mat-toolbar {
+  /* background-color: #002C33; */
+}
+
+.mat-toolbar.mat-primary {
+ position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.user-bar{
+  height: 50px !important;
+}
+
+.logo{
+  width: 120px;
+}
+.sbar{
+  background-color: #003249;
+}
+.hbar{
+  background-color: #003249;
+  height: 50px;
+  box-shadow: 2px 2px 2px rgba(8, 8, 8, 0.5);
+  width: 100vw ;
+}
+.navlist{
+  background-color: rgb(56, 80, 83);
+}
+
+.center{
+  text-align: center;
+}
+
+.fa-bars{
+  font-size: 20px;
+  color: #fff;
+}
+.fa{
+color: #fff;
+margin-right: 7px;
+}
+.active-link{
+  background-color: rgba(64, 92, 95, 0.808);
+}
+.side-links{
+  color: #fff; 
+  font-weight: 200px;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+}
+.side-links:hover{
+  background-color: rgba(68, 96, 100, 0.808);
+}
+
+.side-links:active{
+  background-color: rgba(64, 92, 95, 0.808); 
+}
+.color{
+  color: #fff; 
+}
+.container{
+margin-top: 80px;
+margin-bottom: 10px;
+}
+.logout{
+  cursor: pointer;
+  text-align: left;
+  line-height: 50px;
+}
+.fa-user-circle{
+  margin-right: 5px;
+}
+.logoText{
+display: inline;
+text-align: left;
+line-height: 50px;
+}
+#hhbar{
+  position: fixed !important;
+  top: 0;
+  z-index: 1;
+}
+
+.fa-user-circle{
+  font-size: 30px;
+  line-height: 50px;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 600px) { 
+  .logoText{
+    visibility: hidden !important;
+
+  }
+  #hhbar{
+    height: 37px !important;
+  }
+ 
+
+ .logout{
+  cursor: pointer;
+  text-align: right;
+font-size: 10px;
+line-height: 35px;
+}
+
+ }
+
+ @media only screen and (max-width: 360px){
+  .logoText{
+    display: none !important;
+
+  }
+  .logout{
+    margin-left: 21em;
+  }
+
+ }
+
+/* Small devices (landscape phones, less than 768px) */
+/* @media (max-width: 767.98px) { 
+  .logoText{
+    text-align: left;
+    display: none;
+  }
+ } */

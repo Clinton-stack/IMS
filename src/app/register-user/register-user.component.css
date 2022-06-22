@@ -1,0 +1,21 @@
+label{
+    font-size: 12px;
+} 
+.form-control{
+font-size: 11px;
+}
+
+i{
+    cursor: pointer;
+}
+
+.btn{
+    background-color: #4E8098;
+    color: #fff;
+}
+.btn:hover{
+    background-color: #002127;
+}
+.mat-error{
+    font-size: 8px;
+}

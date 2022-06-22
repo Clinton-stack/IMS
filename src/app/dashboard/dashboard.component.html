@@ -1,0 +1,93 @@
+<div class="container-fluid">
+    <div class="card-deck-wrapper">
+        <div class="card-deck">
+            <!-- Card 1 -->
+            <div class="card ">
+                <div class="row card-body">
+                    <div class="col-3 "><i class="fa fa-dolly-flatbed fa-4x color4"></i></div>
+                    <div class="col-9">
+                        <div class="card-body-right">
+                            <h4 class="card-title">34 units</h4>
+                            <p class="card-text">Disbursed PCs.</p>
+                            <a href="#" class="card-link offset-6">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card ">
+                <div class="row card-body">
+                    <div class="col-3 "><i class="fa fa-exclamation-circle fa-4x color2"></i></div>
+                    <div class="col-9">
+                        <div class="card-body-right">
+                            <h4 class="card-title">123 Units</h4>
+                            <p class="card-text">POS Available.</p>
+                            <a href="#" class="card-link offset-6">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card ">
+                <div class="row card-body">
+                    <div class="col-3 "><i class="fa fa-shopping-cart fa-4x color1"></i></div>
+                    <div class="col-9">
+                        <div class="card-body-right">
+                            <h4 class="card-title">40% New </h4>
+                            <p class="card-text"> stocks this month.</p>
+                            <a href="#" class="card-link offset-6">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Card 4 -->
+            <div class="card ">
+                <div class="row card-body">
+                    <div class="col-3  ">
+                        <i class="fa fa-chart-pie fa-4x color3"></i>
+                    </div>
+                    <div class="col-9">
+                        <div class="card-body-right">
+                            <h4 class="card-title">5 Pending</h4>
+                            <p class="card-text">Request this month.</p>
+                            <a href="#" class="card-link offset-6">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="medium-space"></div>
+<div class="container col-lg-12">
+    <div class="card-deck-wrapper">
+        <div class=" row card-deck">
+            <div class="card col-lg-8">
+                <div class="">
+                    <h3 style="text-align: center; margin-top: 10px;"> SALES</h3>
+                    <p-chart type="bar" [data]="data2" width="100%" height="400px"></p-chart>
+                </div>
+            </div>
+            <div class="card col-lg-4">
+                <div class="">
+                    <h3 style="text-align: center; margin-top: 10px;"> AVAILABLE SYSTEMS</h3>
+                    <p-chart type="pie" [data]="data" width="100%" height="300px"></p-chart>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="medium-space"></div>
+<div class="container col-lg-12">
+    <div class="card-deck-wrapper">
+        <div class=" row card-deck">
+            <p-gmap [options]="options" [style]="{'width':'100%','height':'320px'}"></p-gmap>
+        </div>
+    </div>
+</div>

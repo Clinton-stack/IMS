@@ -1,0 +1,18 @@
+table{
+    width: 100%;
+}
+.fpad{
+    padding:  0 0 0 0;
+}
+.mat-elevation-z2{
+    padding: 15px;
+}
+.fa-plus{
+    color: #4E8098;
+}
+td{
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
